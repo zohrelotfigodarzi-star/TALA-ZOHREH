@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-3">
+        <rdfs:comment rdf:resource="http://example.com/UDHR#"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#affected_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#affected_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Violation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#ensures -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#ensures">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Legal_Framework"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#has_category -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#has_category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Civil_and_Political_Rights"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Economic_Social_and_Cultural_Rights"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#protects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#protects">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#State"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#violates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#violates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#State"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Violation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#has_Article_Number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#has_Article_Number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#has_Country -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#has_Country">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#State"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#has_Description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#has_Description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#has_Punishment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#has_Punishment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Violation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Civil_and_Political_Rights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Civil_and_Political_Rights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Discrimination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Discrimination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Violation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Economic_Social_and_Cultural_Rights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Economic_Social_and_Cultural_Rights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right"/>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#International_Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#International_Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Legal_Framework"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Judiciary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Judiciary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Legal_Framework -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Legal_Framework"/>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#National_Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#National_Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Legal_Framework"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#State"/>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Torture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Torture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Violation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Unlawful_Imprisonment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Unlawful_Imprisonment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Violation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Violation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Violation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Censorship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Censorship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Discrimination"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Violation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Italian_Constitution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Italian_Constitution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Legal_Framework"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#National_Law"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Italy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Italy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Police_Brutality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Police_Brutality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Torture"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Violation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Right_to_Education -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Right_to_Education">
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Economic_Social_and_Cultural_Rights"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Right_to_Freedom_of_Speech -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Right_to_Freedom_of_Speech">
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Civil_and_Political_Rights"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Human_Right"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Universal_Declaration_of_Human_Rights -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Universal_Declaration_of_Human_Rights">
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#International_Law"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/westlaptop/ontologies/2025/1/untitled-ontology-2#Legal_Framework"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
